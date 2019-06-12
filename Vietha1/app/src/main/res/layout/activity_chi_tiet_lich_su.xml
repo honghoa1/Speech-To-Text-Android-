@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarchitiet"
+        android:background="#0898D1"
+        app:titleTextColor="#1B1A1A"
+        app:title="Nội dung chi tiết"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <ImageView
+                    android:id="@+id/imgViewchitiet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/ic_launcher" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textviewtenchitietlichsu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:text="Hai Bà Trưng "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:text=" Hoa ban"
+                android:paddingBottom="10dp"
+                android:id="@+id/textviewmotachitiet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

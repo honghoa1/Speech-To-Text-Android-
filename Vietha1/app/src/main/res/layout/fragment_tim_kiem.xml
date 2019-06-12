@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:background="#009688"
+        android:id="@+id/appbarlayoutsearchlichsu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarsearchlicshu"
+            android:layout_width="match_parent"
+            android:layout_height="43dp">
+
+
+        </android.support.v7.widget.Toolbar>
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/appbarlayoutsearchlichsu"
+        android:id="@+id/recycleviewsearchlichsu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+    <TextView
+
+        android:visibility="gone"
+        android:textColor="#1DA8E7"
+        android:gravity="center"
+        android:id="@+id/textviewkhongcodulieu"
+        android:text="Không có dữ liệu lịch sử"
+        android:textSize="35sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</RelativeLayout>
